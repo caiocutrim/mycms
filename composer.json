@@ -1,0 +1,10 @@
+{
+	"require": {
+		"phpunit/phpunit" : "3.7.*@dev",
+	},
+	"autoload":{
+		"psr-4" : {
+			"MyCMS\\Application\\" : "src/"
+		}
+	}
+}
